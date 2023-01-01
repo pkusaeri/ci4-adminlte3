@@ -11,4 +11,28 @@ class Chart extends BaseController
         .view('templates/chart/chartjs')
         .view('templates/dashboard/v1/footer');
     }
+    public function chartjs(){
+        $data['title'] = 'Chartjs';
+        return view('templates/dashboard/v1/header',$data)
+        .view('templates/chart/chartjs')
+        .view('templates/dashboard/v1/footer');
+    }
+    public function flot(){
+        $data['title'] = 'Flot';
+        return view('templates/dashboard/v1/header',$data)
+        .view('templates/chart/flot')
+        .view('templates/dashboard/v1/footer');
+    }
+    public function inline(){
+        $data['title'] = 'Inline';
+        return view('templates/dashboard/v1/header',$data)
+        .view('templates/chart/inline')
+        .view('templates/dashboard/v1/footer');
+    }
+    public function uplot(){
+        $data['title'] = 'uPlot';
+        return view('templates/dashboard/v1/header',$data)
+        .view('templates/chart/uplot')
+        .view('templates/dashboard/v1/footer');
+    }
 }
