@@ -27,7 +27,7 @@ class Charts extends BaseController
         $data['title'] = 'Inline';
         return view('templates/dashboard/v1/header',$data)
         .view('templates/chart/inline')
-        .view('templates/dashboard/v1/footer'.$data);
+        .view('templates/dashboard/v1/footer',$data);
     }
     public function uplot(){
         $data['title'] = 'uPlot';

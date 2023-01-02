@@ -31,10 +31,25 @@
     "dist/css/adminlte.min.css"
     ];
     
+    $inline = [
+    "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback",
+    "plugins/fontawesome-free/css/all.min.css",
+    "dist/css/adminlte.min.css"    
+    ];
+    
+    $uplot = [
+    "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback",
+    "plugins/fontawesome-free/css/all.min.css",
+    "plugins/uplot/uPlot.min.css",
+    "dist/css/adminlte.min.css"    
+    ];
+    
     $view = [
       'Dashboard' => $dashboard,
       'Chartjs' => $chartjs,
-      'Flot' => $flot
+      'Flot' => $flot,
+      'Inline' => $inline,
+      'uPlot' => $uplot
     ];
     
     $links= $view[$title];
@@ -43,7 +58,7 @@
     }
   ?>  
 </head>
-<body class="hold-transition sidebar-mini layout-fixed">
+<body class="hold-transition sidebar-mini">
 <div class="wrapper">
 
   <!-- Preloader -->

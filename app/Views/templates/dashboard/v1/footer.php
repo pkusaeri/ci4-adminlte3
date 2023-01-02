@@ -35,8 +35,7 @@
     "plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js",
     "dist/js/adminlte.js",
     "dist/js/demo.js",
-    "dist/js/pages/dashboard.js",
-    "viewjs/dynamic-menu.js"
+    "dist/js/pages/dashboard.js"
     ];
     $chartjs = [
     "plugins/jquery/jquery.min.js",
@@ -44,8 +43,7 @@
     "plugins/chart.js/Chart.min.js",
     "dist/js/adminlte.min.js",
     "dist/js/demo.js",
-    "viewjs/charjs.js",
-    "viewjs/dynamic-menu.js"
+    "viewjs/charjs.js"
     ];
     $flot = [
     "plugins/jquery/jquery.min.js",
@@ -55,22 +53,41 @@
     "plugins/flot/plugins/jquery.flot.resize.js",
     "plugins/flot/plugins/jquery.flot.pie.js",
     "dist/js/demo.js",
-    "viewjs/flot.js",
-    "viewjs/dynamic-menu.js"
+    "viewjs/flot.js"
+    ];
+    
+    $inline = [
+    "plugins/jquery/jquery.min.js",
+    "plugins/bootstrap/js/bootstrap.bundle.min.js",
+    "dist/js/adminlte.min.js",
+    "plugins/jquery-knob/jquery.knob.min.js",
+    "plugins/sparklines/sparkline.js",
+    "dist/js/demo.js",
+    "viewjs/inline.js"
+    ];
+    
+    $uplot = [
+    "plugins/jquery/jquery.min.js",
+    "plugins/bootstrap/js/bootstrap.bundle.min.js",
+    "plugins/uplot/uPlot.iife.min.js",
+    "dist/js/adminlte.min.js",
+    "dist/js/demo.js",
+    "viewjs/uplot.js"
     ];
     
     $view = [
       'Dashboard' => $dashboard,
       'Chartjs' => $chartjs,
-      'Flot' => $flot
+      'Flot' => $flot,
+      'Inline' => $inline,
+      'uPlot' => $uplot
     ];
     
     $scripts= $view[$title];
     foreach($scripts as $script){
-      echo "<script src=\"".$script."\"></script>";
+      echo "<script src=\"".$script."\"></script>\n";
     }
-  
-  ?>
-  
+    ?>
+<script src="viewjs/dynamic-menu.js"></script>
 </body>
 </html>
