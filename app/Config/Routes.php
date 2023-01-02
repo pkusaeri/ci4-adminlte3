@@ -38,7 +38,11 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('dashboard', 'Dashboard::index');
 $routes->get('dashboard/v1', 'Dashboard::v1');
-$routes->get('chart', 'Chart::index');
+$routes->get('charts', 'Charts::index');
+$routes->get('charts/chartjs', 'Charts::chartjs');
+$routes->get('charts/flot', 'Charts::flot');
+$routes->get('charts/inline', 'Charts::inline');
+$routes->get('charts/uplot', 'Charts::uplot');
 
 /*
  * --------------------------------------------------------------------
