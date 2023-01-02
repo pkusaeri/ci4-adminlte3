@@ -44,12 +44,75 @@
     "dist/css/adminlte.min.css"    
     ];
     
+    $buttons = [
+    "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback",
+    "plugins/fontawesome-free/css/all.min.css",
+    "dist/css/adminlte.min.css"
+    ];
+    
+    $general = [
+    "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback",
+    "plugins/fontawesome-free/css/all.min.css",
+    "dist/css/adminlte.min.css",
+    "viewcss/general.css"
+    ];
+    
+    $icons = [
+    "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback",
+    "plugins/fontawesome-free/css/all.min.css",
+    "dist/css/adminlte.min.css"
+    ];
+    
+    $modals = [
+    "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback",
+    "plugins/fontawesome-free/css/all.min.css",
+    "plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css",
+    "plugins/toastr/toastr.min.css",
+    "dist/css/adminlte.min.css"
+    ];
+    
+    $navbar = [
+    "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback",
+    "plugins/fontawesome-free/css/all.min.css",
+    "plugins/sweetalert2/sweetalert2.min.css",
+    "plugins/toastr/toastr.min.css",
+    "dist/css/adminlte.min.css"
+    ];
+    
+    $ribbons = [
+    "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback",
+    "plugins/fontawesome-free/css/all.min.css",
+    "dist/css/adminlte.min.css"
+    ];
+    
+    $sliders = [
+    "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback",
+    "plugins/fontawesome-free/css/all.min.css",
+    "plugins/ion-rangeslider/css/ion.rangeSlider.min.css",
+    "plugins/bootstrap-slider/css/bootstrap-slider.min.css",
+    "dist/css/adminlte.min.css"
+    ];
+    
+    $timeline = [
+    "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback",
+    "plugins/fontawesome-free/css/all.min.css",
+    "dist/css/adminlte.min.css"
+    ];    
+    
     $view = [
       'Dashboard' => $dashboard,
       'Chartjs' => $chartjs,
       'Flot' => $flot,
       'Inline' => $inline,
-      'uPlot' => $uplot
+      'uPlot' => $uplot,
+      'Buttons' => $buttons,
+      'General' => $general,
+      'Icons' => $icons,
+      'Modals' => $modals,
+      'Navbar' => $navbar,
+      'Ribbons' => $ribbons,
+      'Sliders' => $sliders,
+      'Timeline' => $timeline
     ];
     
     $links= $view[$title];

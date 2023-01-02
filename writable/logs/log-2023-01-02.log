@@ -98,3 +98,47 @@ in APPPATH\Controllers\Charts.php on line 30.
  4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-02 04:13:58 --> Undefined variable $general
+in APPPATH\Views\templates\dashboard\v1\header.php on line 109.
+ 1 APPPATH\Views\templates\dashboard\v1\header.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $general', 'APPPATH\\Views\\templates\\dashboard\\v1\\header.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\dashboard\\v1\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates/dashboard/v1/header', [], true)
+ 5 APPPATH\Controllers\Ui.php(18): view('templates/dashboard/v1/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ui->general()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ui))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-02 04:14:50 --> Invalid file: templates/chart/general.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/chart/general.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates/chart/general', [], true)
+ 3 APPPATH\Controllers\Ui.php(19): view('templates/chart/general')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ui->general()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ui))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-02 04:16:14 --> Invalid file: templates/chart/general.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/chart/general.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates/chart/general', [], true)
+ 3 APPPATH\Controllers\Ui.php(19): view('templates/chart/general')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ui->general()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ui))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-02 04:42:31 --> Undefined array key "Ribbon"
+in APPPATH\Views\templates\dashboard\v1\header.php on line 118.
+ 1 APPPATH\Views\templates\dashboard\v1\header.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Ribbon"', 'APPPATH\\Views\\templates\\dashboard\\v1\\header.php', 118)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\dashboard\\v1\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates/dashboard/v1/header', [], true)
+ 5 APPPATH\Controllers\Ui.php(42): view('templates/dashboard/v1/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Ui->ribbons()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ui))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

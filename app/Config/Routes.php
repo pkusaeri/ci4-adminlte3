@@ -43,6 +43,15 @@ $routes->get('charts/chartjs', 'Charts::chartjs');
 $routes->get('charts/flot', 'Charts::flot');
 $routes->get('charts/inline', 'Charts::inline');
 $routes->get('charts/uplot', 'Charts::uplot');
+$routes->get('UI','Ui::index');
+$routes->get('UI/buttons','Ui::buttons');
+$routes->get('UI/general','Ui::general');
+$routes->get('UI/icons','Ui::icons');
+$routes->get('UI/modals','Ui::modals');
+$routes->get('UI/navbar','Ui::navbar');
+$routes->get('UI/ribbons','Ui::ribbons');
+$routes->get('UI/sliders','Ui::sliders');
+$routes->get('UI/timeline','Ui::timeline');
 
 /*
  * --------------------------------------------------------------------

@@ -75,12 +75,85 @@
     "viewjs/uplot.js"
     ];
     
+    $buttons = [
+    "plugins/jquery/jquery.min.js",
+    "plugins/bootstrap/js/bootstrap.bundle.min.js",
+    "dist/js/adminlte.min.js",
+    "dist/js/demo.js"
+    ];
+    
+    $general = [
+    "plugins/jquery/jquery.min.js",
+    "plugins/bootstrap/js/bootstrap.bundle.min.js",
+    "dist/js/adminlte.min.js",
+    "dist/js/demo.js"
+    ];
+    
+    $icons = [
+    "plugins/jquery/jquery.min.js",
+    "plugins/bootstrap/js/bootstrap.bundle.min.js",
+    "dist/js/adminlte.min.js",
+    "dist/js/demo.js"
+    ];
+    
+    $modals = [
+    "plugins/jquery/jquery.min.js",
+    "plugins/bootstrap/js/bootstrap.bundle.min.js",
+    "plugins/sweetalert2/sweetalert2.min.js",
+    "plugins/toastr/toastr.min.js",
+    "dist/js/adminlte.min.js",
+    "dist/js/demo.js",
+    "viewjs/modals.js"
+    ];
+    
+    $navbar = [
+    "plugins/jquery/jquery.min.js",
+    "plugins/bootstrap/js/bootstrap.bundle.min.js",
+    "dist/js/adminlte.min.js",
+    "dist/js/demo.js"
+    ];
+    
+    $ribbons = [
+    "plugins/jquery/jquery.min.js",
+    "plugins/bootstrap/js/bootstrap.bundle.min.js",
+    "dist/js/adminlte.min.js",
+    "plugins/ion-rangeslider/js/ion.rangeSlider.min.js",
+    "plugins/bootstrap-slider/bootstrap-slider.min.js",
+    "dist/js/demo.js",
+    "viewjs/ribbons.js"
+    ];
+    
+    $sliders = [
+    "plugins/jquery/jquery.min.js",
+    "plugins/bootstrap/js/bootstrap.bundle.min.js",
+    "dist/js/adminlte.min.js",
+    "plugins/ion-rangeslider/js/ion.rangeSlider.min.js",
+    "plugins/bootstrap-slider/bootstrap-slider.min.js",
+    "dist/js/demo.js",
+    "viewjs/sliders.js"
+    ];
+    
+    $timeline = [
+    "plugins/jquery/jquery.min.js",
+    "plugins/bootstrap/js/bootstrap.bundle.min.js",
+    "dist/js/adminlte.min.js",
+    "dist/js/demo.js"
+    ];    
+    
     $view = [
       'Dashboard' => $dashboard,
       'Chartjs' => $chartjs,
       'Flot' => $flot,
       'Inline' => $inline,
-      'uPlot' => $uplot
+      'uPlot' => $uplot,
+      'Buttons' => $buttons,
+      'General' => $general,
+      'Icons' => $icons,
+      'Modals' => $modals,
+      'Navbar' => $navbar,
+      'Ribbons' => $ribbons,
+      'Sliders' => $sliders,
+      'Timeline' => $timeline
     ];
     
     $scripts= $view[$title];
